@@ -1,0 +1,212 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+  @media only screen and (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media only screen and (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media only screen and (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
+
+body {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif; }
+
+.home {
+  margin-top: -30px; }
+  .home .carousel-item .carousel-caption h5 {
+    font-size: 5rem;
+    font-family: 'Fredoka One', cursive; }
+  .home .carousel-item img {
+    height: 100%;
+    max-height: 100vh;
+    width: 100%; }
+
+.navbar {
+  z-index: 10; }
+  .navbar .nav-item {
+    padding: 0 1rem; }
+  .navbar .nav-link {
+    font-size: 2rem;
+    padding: 1.5rem 2rem !important;
+    border-radius: 16px;
+    color: #fff !important; }
+    .navbar .nav-link--0 {
+      background-color: #FE4848; }
+    .navbar .nav-link--1 {
+      background-color: #C61FA1; }
+    .navbar .nav-link--2 {
+      background-color: #9CC624; }
+    .navbar .nav-link--3 {
+      background-color: #0E9AFF; }
+    .navbar .nav-link--4 {
+      background-color: #FF7223; }
+
+.btn-about {
+  font-size: 2rem;
+  padding: 1.5rem 2rem !important;
+  border-radius: 16px;
+  background-color: #FF7223;
+  margin-top: 10rem;
+  font-family: 'Fredoka One', cursive;
+  color: #fff !important; }
+
+.about {
+  padding: 15rem 0 5rem 0; }
+  .about__content-header h2 {
+    font-size: 6.4rem;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    color: #483290; }
+  .about__content-body p {
+    font-size: 2.2rem;
+    line-height: 35px;
+    text-align: center;
+    color: #7f70b1; }
+  .about__content-img {
+    display: flex; }
+    @media only screen and (max-width: 37.5em) {
+      .about__content-img {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; } }
+    .about__content-img-1 {
+      padding: 1rem; }
+    .about__content-img-2 {
+      padding: 1rem; }
+    .about__content-img-3 {
+      padding: 1rem; }
+    .about__content-img img {
+      border-radius: 16px; }
+
+.features {
+  padding: 15rem 0; }
+  .features-header h3 {
+    color: #0e9aff;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 3rem;
+    line-height: 36px;
+    font-weight: normal;
+    margin: 15px 0; }
+  .features-body p {
+    font-size: 2.2rem;
+    line-height: 35px;
+    text-align: center;
+    color: #7f70b1; }
+
+.secondary-header {
+  padding: 0 0 10rem 0; }
+  .secondary-header h2 {
+    font-size: 6.4rem;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    color: #483290; }
+
+.primary-header h2 {
+  font-size: 4.4rem;
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+  color: #ff7223; }
+
+.testinomials {
+  padding: 10rem 0; }
+  .testinomials .slider {
+    padding: 3rem 0;
+    color: #fff; }
+  .testinomials .test-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .testinomials .test-card-header {
+      text-align: center;
+      margin-bottom: 2rem; }
+      .testinomials .test-card-header img {
+        width: 204px !important;
+        margin: 0 auto;
+        height: 204px;
+        border-radius: 50%; }
+    .testinomials .test-card-details {
+      width: 75%;
+      margin: 0 auto; }
+    .testinomials .test-card-body {
+      text-align: center;
+      font-size: 3rem;
+      line-height: 3rem;
+      font-family: 'Fredoka One', cursive;
+      color: #0e9aff; }
+      .testinomials .test-card-body p::before {
+        content: '\201C';
+        font-size: 50px;
+        position: relative;
+        color: #ff9800;
+        line-height: 20px;
+        bottom: 15px;
+        right: 5px; }
+      .testinomials .test-card-body p::after {
+        content: '\201D';
+        font-size: 50px;
+        position: relative;
+        color: #ff9800;
+        line-height: 20px;
+        top: 15px;
+        left: 5px; }
+    .testinomials .test-card-footer {
+      text-align: right;
+      font-family: 'Fredoka One', cursive;
+      font-size: 2rem;
+      font-weight: 100;
+      color: #03cb8f; }
+
+.owl-nav {
+  position: absolute;
+  top: -46px;
+  right: 0; }
+
+.owl-nav button:focus {
+  outline: none; }
+
+.owl-nav button {
+  background: #0e9aff !important;
+  margin: 0 0 0 5px;
+  color: #fff !important;
+  width: 30px;
+  height: 40px;
+  transition: all .4s; }
+
+.owl-nav button:hover {
+  background: #03cb8f !important; }
+
+.footer-color {
+  background: #ABDDFF; }
+
+.footer .list-group-item {
+  font-size: 3rem;
+  font-family: 'Fredoka One', cursive;
+  background-color: #ABDDFF;
+  color: #03cb8f;
+  border: none; }
+
+.footer .contact-address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #03cb8f; }
+  .footer .contact-address h4 {
+    font-size: 3rem;
+    font-family: 'Fredoka One', cursive; }
+
+.footer .copyright-content {
+  font-size: 1.8rem; }
